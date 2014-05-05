@@ -4,4 +4,5 @@ class TodoList < ActiveRecord::Base
 
 	validates :title, length: {minimum: 3}
 
+	validates :description, presence: true
 end
