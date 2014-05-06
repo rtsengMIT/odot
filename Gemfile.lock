@@ -61,6 +61,8 @@ GEM
     mini_portile (0.5.3)
     minitest (5.3.3)
     multi_json (1.9.3)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
     nokogiri (1.6.1-x86-mingw32)
       mini_portile (~> 0.5.0)
     polyglot (0.3.4)
@@ -106,6 +108,8 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    shoulda-matchers (2.6.1)
+      activesupport (>= 3.0.0)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -147,6 +151,7 @@ DEPENDENCIES
   rspec-rails (~> 2.0)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  shoulda-matchers
   sqlite3
   turbolinks
   tzinfo-data
